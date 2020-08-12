@@ -32,7 +32,7 @@ curs.execute(query)
 def get_statement(row):
     titanic['Name'] = titanic['Name'].str.replace("'", "")
     base = "INSERT INTO titanic (Survived, Pclass, Name, Sex, Age, Siblings, Parents, Fare) VALUES "
-    row[2] = row[2].replace("'", "")
+    #row[2] = row[2].replace("'", "")
     return base + str(tuple(row)) + ";"
 
 
