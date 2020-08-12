@@ -38,7 +38,5 @@ def get_statement(row):
 
 for row in titanic.values:
     query = get_statement(row)
-    print(query)
-    print(titanic.shape)
     curs.execute(query)
 conn.commit()
