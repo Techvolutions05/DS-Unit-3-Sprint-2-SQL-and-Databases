@@ -3,9 +3,9 @@ import sqlite3
 
 # Stablishing a connection with PostgreSQL
 
-dbname = 'zvrbtljs'
-user = 'zvrbtljs'
-password = 'Y2-K-XL86Wewk9dNXEbL0laZnuEZUQv0'  # Sensitive! Don't share/commit
+dbname = '-------'
+user = '-------'
+password = '----------'  # Sensitive! Don't share/commit
 host = 'isilo.db.elephantsql.com'
 
 pg_conn = psycopg2.connect(dbname=dbname, user=user,
